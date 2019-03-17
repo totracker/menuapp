@@ -3,15 +3,16 @@
   grid-template-columns: 349px;
   grid-template-rows: 82px 82px 82px 82px 82px 82px 82px;
   /* grid-template-areas: "one" "two" "three" "four" "five" "six" "seven"; */
+  grid-template-areas: "." "." "." "." "." "." ".";
 }
 
-.one { grid-area: one; }
+/*.one { grid-area: one; }
 .two { grid-area: two; }
 .three { grid-area: three; }
 .four { grid-area: four; }
 .five { grid-area: five; }
 .six { grid-area: six; }
-.seven { grid-area: seven; }
+.seven { grid-area: seven; }*/
 
 body {
   margin:0px;
