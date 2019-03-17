@@ -1,8 +1,8 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px 200px;
-  grid-template-areas: "one one two" "three four five" "three six seven" "eight nine nine" "ten ten eleven";
+  grid-template-columns: 349px;
+  grid-template-rows: 82px 82px 82px 82px 82px 82px 82px;
+  grid-template-areas: "one one two three four five six seven";
 }
 
 .one { grid-area: one; }
@@ -12,14 +12,10 @@
 .five { grid-area: five; }
 .six { grid-area: six; }
 .seven { grid-area: seven; }
-.eight { grid-area: eight; }
-.nine { grid-area: nine; }
-.ten { grid-area: ten; }
-.eleven { grid-area: eleven; }
 
 body {
   margin:0px;
-  width:600px;
+  width:349px;
 }
 
 div {
