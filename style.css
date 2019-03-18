@@ -21,8 +21,12 @@ body {
 
 div {
 text-align: -webkit-center;
+margin-left: auto;
+margin-right: auto;
 }
 
 img {
 width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
