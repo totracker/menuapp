@@ -6,14 +6,6 @@
   grid-template-areas: "." "." "." "." "." "." ".";
 }
 
-/*.one { grid-area: one; }
-.two { grid-area: two; }
-.three { grid-area: three; }
-.four { grid-area: four; }
-.five { grid-area: five; }
-.six { grid-area: six; }
-.seven { grid-area: seven; }*/
-
 body {
   margin: 0px;
   width: 349px;
