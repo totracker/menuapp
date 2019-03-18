@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 750px;
+  grid-template-columns: 349px;
   grid-template-rows: 82px 82px 82px 82px 82px 81px 82px;
   /* grid-template-areas: "one" "two" "three" "four" "five" "six" "seven"; */
   grid-template-areas: "." "." "." "." "." "." ".";
