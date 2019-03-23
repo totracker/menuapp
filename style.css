@@ -1,22 +1,27 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 349px;
-  grid-template-rows: 82px 82px 82px 82px 82px 81px 82px;
-  grid-template-areas: "." "." "." "." "." "." ".";
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 100px 200px 200px 100px;
+  grid-template-areas: "one one one" "two two two" "three three four" "five six six" "seven seven seven";
 }
 
+.one { grid-area: one; }
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+
 body {
-  margin: 0px;
-  width: 349px;
+  margin:0px;
+  width:600px;
 }
 
 div {
-  text-align: -webkit-center;
-  margin: auto;
-  display: block;
+text-align: -webkit-center;
 }
 
 img {
-  width: 100%;
-  margin: auto;
+width: 100%;
 }
